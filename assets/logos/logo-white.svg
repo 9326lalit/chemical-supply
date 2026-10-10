@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" width="240" height="50" fill="none">
+  <rect x="2" y="5" width="40" height="40" rx="8" fill="#F97316"/>
+  <path d="M12 33V17L22 12L32 17V33L22 38L12 33Z" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 12V38M12 17L32 33M12 33L32 17" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.6"/>
+  <circle cx="22" cy="25" r="4" fill="#F97316" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="52" y="27" font-family="'Inter', system-ui, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">BUILDSUPPLY</text>
+  <text x="52" y="40" font-family="'Inter', system-ui, sans-serif" font-size="9.5" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">DISTRIBUTION PARTNER</text>
+</svg>

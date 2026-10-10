@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#0F172A"/>
+  <rect x="20" y="20" width="560" height="360" rx="12" fill="#1E293B" stroke="#334155"/>
+  <!-- Warehouse & Technical center schematic -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="480" height="240" rx="8" fill="#111827"/>
+    <!-- Bay racks -->
+    <rect x="30" y="30" width="80" height="180" fill="#1E3A5F" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="140" y="30" width="80" height="180" fill="#1E3A5F" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="250" y="30" width="80" height="180" fill="#1E3A5F" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="360" y="30" width="80" height="180" fill="#1E3A5F" stroke="#38BDF8" stroke-width="1.5"/>
+    <!-- Rack shelves -->
+    <line x1="30" y1="80" x2="440" y2="80" stroke="#F97316" stroke-width="2"/>
+    <line x1="30" y1="130" x2="440" y2="130" stroke="#F97316" stroke-width="2"/>
+    <line x1="30" y1="180" x2="440" y2="180" stroke="#F97316" stroke-width="2"/>
+  </g>
+  <rect x="60" y="320" width="480" height="40" rx="6" fill="#1F2937" stroke="#374151"/>
+  <text x="80" y="345" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">CENTRALIZED WAREHOUSING & REGULATED STORAGE INFRASTRUCTURE</text>
+</svg>

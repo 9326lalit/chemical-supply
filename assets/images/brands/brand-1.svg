@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+    <rect width="200" height="80" rx="8" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.5"/>
+    <g transform="translate(16, 20)">
+      <rect x="0" y="4" width="32" height="32" rx="6" fill="#1E3A5F" opacity="0.9"/>
+      <path d="M8 20L16 12L24 20L16 28Z" fill="#F97316"/>
+      <circle cx="16" cy="20" r="3" fill="#FFFFFF"/>
+      <text x="42" y="19" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#111827">UltraChem Systems</text>
+      <text x="42" y="32" font-family="'Inter', system-ui, sans-serif" font-size="8.5" font-weight="500" fill="#6B7280">Polymers & Admixtures</text>
+    </g>
+  </svg>

@@ -1,0 +1,81 @@
+/* ==========================================================================
+   INDUSTRIES PAGE STYLESHEET (industries.css)
+   Sector Solutions, Supply Breakdown, Tailored Requirements
+   ========================================================================== */
+
+.industry-sector-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+  transition: box-shadow var(--transition-base);
+}
+
+.industry-sector-card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.industry-sector-card:nth-child(even) {
+  grid-template-columns: 1.3fr 1fr;
+}
+
+.industry-sector-card:nth-child(even) .industry-sector-card__image {
+  order: 2;
+}
+
+.industry-sector-card__image {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+  background-color: #F1F5F9;
+}
+
+.industry-sector-card__content {
+  padding: 40px;
+}
+
+.industry-sector-card__badge {
+  font-size: 0.8rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.industry-sector-card__title {
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+}
+
+.industry-sector-card__desc {
+  font-size: 0.98rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.industry-sector-card__solutions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 900px) {
+  .industry-sector-card,
+  .industry-sector-card:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+  .industry-sector-card:nth-child(even) .industry-sector-card__image {
+    order: 0;
+  }
+  .industry-sector-card__content {
+    padding: 24px;
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320">
+    <defs>
+      <linearGradient id="pbg-proj-highway-bridge" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F172A"/>
+        <stop offset="100%" stop-color="#1E3A5F"/>
+      </linearGradient>
+    </defs>
+    <rect width="500" height="320" fill="url(#pbg-proj-highway-bridge)"/>
+    <!-- Construction structural silhouette -->
+    <path d="M0 240L140 180L280 220L420 160L500 210V320H0Z" fill="#111827" opacity="0.8"/>
+    <line x1="80" y1="40" x2="80" y2="280" stroke="#334155" stroke-width="2"/>
+    <line x1="220" y1="60" x2="220" y2="280" stroke="#334155" stroke-width="2"/>
+    <line x1="360" y1="30" x2="360" y2="280" stroke="#334155" stroke-width="2"/>
+    <path d="M60 40H400M60 100H400M60 160H400M60 220H400" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+    
+    <!-- Active Project Indicator -->
+    <rect x="30" y="30" width="130" height="26" rx="4" fill="#F97316"/>
+    <text x="40" y="47" font-family="'Inter', sans-serif" font-size="10" font-weight="800" fill="#FFFFFF" letter-spacing="1">PROJECT CASE STUDY</text>
+    
+    <!-- Project Details Footer Overlay -->
+    <rect x="20" y="200" width="460" height="96" rx="8" fill="#111827" fill-opacity="0.9" stroke="#374151"/>
+    <text x="40" y="230" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F97316">Structural Repair</text>
+    <text x="40" y="255" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Expressway Flyover Piers</text>
+    <text x="40" y="278" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#9CA3AF">Supplied: Corrosion Inhibitors & Carbon Laminates</text>
+  </svg>

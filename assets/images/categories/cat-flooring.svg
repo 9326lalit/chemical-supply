@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+    <defs>
+      <linearGradient id="bg-cat-flooring" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#111827"/>
+        <stop offset="100%" stop-color="#1E3A5F"/>
+      </linearGradient>
+      <linearGradient id="glow-cat-flooring" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.3"/>
+        <stop offset="100%" stop-color="#F97316" stop-opacity="0.1"/>
+      </linearGradient>
+    </defs>
+    <rect width="400" height="300" fill="url(#bg-cat-flooring)"/>
+    <circle cx="340" cy="60" r="140" fill="url(#glow-cat-flooring)"/>
+    <!-- Technical grid pattern -->
+    <path d="M0 60h400M0 120h400M0 180h400M0 240h400M60 0v300M120 0v300M180 0v300M240 0v300M300 0v300M360 0v300" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    
+    <!-- Central Industrial Component Graphic -->
+    <g transform="translate(140, 70)">
+      <rect x="0" y="0" width="120" height="120" rx="16" fill="#1F2937" stroke="#7C3AED" stroke-width="2"/>
+      <rect x="10" y="10" width="100" height="100" rx="12" fill="#111827" fill-opacity="0.8"/>
+      <!-- Icon representation -->
+      <circle cx="60" cy="60" r="34" fill="#7C3AED" fill-opacity="0.15"/>
+      <circle cx="60" cy="60" r="22" fill="#7C3AED" fill-opacity="0.25"/>
+      <path d="M50 50h20v20H50z" fill="#F97316" opacity="0.8"/>
+      <circle cx="60" cy="60" r="4" fill="#FFFFFF"/>
+    </g>
+    
+    <!-- Category Badge -->
+    <rect x="30" y="210" width="120" height="24" rx="4" fill="#7C3AED" fill-opacity="0.2"/>
+    <text x="38" y="226" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#F97316" letter-spacing="1">SOLUTION SECTOR</text>
+    <text x="30" y="260" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Flooring Solutions</text>
+  </svg>

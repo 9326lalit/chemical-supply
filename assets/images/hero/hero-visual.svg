@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="600" height="520">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="hglow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropshadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base with rounded frame -->
+  <rect x="10" y="10" width="580" height="500" rx="20" fill="url(#hbg)" stroke="#374151" stroke-width="1.5"/>
+  <rect x="10" y="10" width="580" height="500" rx="20" fill="url(#hglow)"/>
+
+  <!-- Construction Engineering Grid Overlay -->
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1">
+    <line x1="40" y1="40" x2="560" y2="40"/>
+    <line x1="40" y1="120" x2="560" y2="120"/>
+    <line x1="40" y1="200" x2="560" y2="200"/>
+    <line x1="40" y1="280" x2="560" y2="280"/>
+    <line x1="40" y1="360" x2="560" y2="360"/>
+    <line x1="40" y1="440" x2="560" y2="440"/>
+    <line x1="100" y1="40" x2="100" y2="480"/>
+    <line x1="200" y1="40" x2="200" y2="480"/>
+    <line x1="300" y1="40" x2="300" y2="480"/>
+    <line x1="400" y1="40" x2="400" y2="480"/>
+    <line x1="500" y1="40" x2="500" y2="480"/>
+  </g>
+
+  <!-- Structural Crane & Girder Silhouette -->
+  <path d="M420 50L490 120H550L480 50H420Z" fill="#F97316" opacity="0.2"/>
+  <line x1="470" y1="120" x2="470" y2="260" stroke="#F97316" stroke-width="2" opacity="0.3"/>
+
+  <!-- Isometric Infrastructure & Supply Depot Graphics -->
+  <!-- Central High-Rise / Commercial Structure Layer -->
+  <g transform="translate(180, 100)" filter="url(#dropshadow)">
+    <!-- Base Platform -->
+    <path d="M120 40L240 105L120 170L0 105Z" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <!-- Pillar 1 -->
+    <path d="M40 120V230L80 250V140Z" fill="#334155"/>
+    <path d="M80 250L160 205V95L80 140Z" fill="#1E3A5F"/>
+    <path d="M40 120L120 75L160 95L80 140Z" fill="#475569"/>
+    <!-- Chemical Storage Tank 1 -->
+    <ellipse cx="200" cy="160" rx="30" ry="12" fill="#0284C7"/>
+    <path d="M170 160V220C170 228 230 228 230 220V160Z" fill="#0369A1" stroke="#0284C7" stroke-width="1"/>
+    <!-- Chemical Storage Tank 2 (Orange Accent) -->
+    <ellipse cx="140" cy="210" rx="26" ry="10" fill="#EA580C"/>
+    <path d="M114 210V260C114 268 166 268 166 260V210Z" fill="#C2410C"/>
+  </g>
+
+  <!-- Front Floating Technical Cards -->
+  <!-- Floating Card 1: Batch Quality Verified -->
+  <g transform="translate(45, 140)" filter="url(#dropshadow)">
+    <rect width="180" height="74" rx="10" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+    <circle cx="32" cy="37" r="18" fill="#1E3A5F"/>
+    <path d="M26 37L30 41L38 33" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Direct Supply</text>
+    <text x="60" y="48" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF">Authorized Brands</text>
+  </g>
+
+  <!-- Floating Card 2: Bulk Logistics Dispatch -->
+  <g transform="translate(350, 290)" filter="url(#dropshadow)">
+    <rect width="200" height="84" rx="10" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+    <circle cx="35" cy="42" r="18" fill="#F97316" fill-opacity="0.2"/>
+    <!-- Delivery truck icon -->
+    <path d="M25 46V36h12v10m0-6h6l4 6v4h-2m-16 0a2.5 2.5 0 11-5 0m19 0a2.5 2.5 0 11-5 0" stroke="#F97316" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="65" y="36" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Jobsite Delivery</text>
+    <text x="65" y="52" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF">Scheduled Project Supply</text>
+    <text x="65" y="66" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#10B981">Verified Stock Ready</text>
+  </g>
+
+  <!-- Floating Card 3: Technical Support Badge -->
+  <g transform="translate(60, 370)" filter="url(#dropshadow)">
+    <rect width="220" height="90" rx="10" fill="#1F2937" stroke="#F97316" stroke-width="1.5"/>
+    <rect x="15" y="16" width="36" height="36" rx="6" fill="#1E3A5F"/>
+    <!-- Flask / Chem icon -->
+    <path d="M30 22v4l-6 10h18l-6-10v-4h-6z" stroke="#FFFFFF" stroke-width="1.8" fill="none"/>
+    <circle cx="33" cy="33" r="1.5" fill="#F97316"/>
+    <circle cx="28" cy="31" r="1" fill="#F97316"/>
+    <text x="60" y="32" font-family="'Inter', sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF">Technical Guidance</text>
+    <text x="60" y="48" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#D1D5DB">Admixture & Waterproofing</text>
+    <text x="60" y="64" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#F97316">Engineer-Assisted RFQs</text>
+  </g>
+</svg>
